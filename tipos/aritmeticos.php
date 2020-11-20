@@ -1,0 +1,34 @@
+<div class="titulo">Operadores Aritméticos</div>
+
+<?php
+
+/*
+Operadores Aritméticos
+
++ soma
+- subtração
+* multiplicação
+/ divisão
+% mod (resto da divisão)
+** potência
+
+*/
+echo 1 + 1, '<br>';
+var_dump(1 + 1);
+echo '<br>';
+echo 1 + 2.5, '<br>';
+echo 10 - 2, '<br>';
+echo 2 * 5, '<br>';
+echo 7 / 4, '<br>';
+echo intdiv(7, 4), '<br>';
+echo round(7 / 4), '<br>';
+echo 7 % 4, '<br>';
+echo 7 % 2, '<br>';
+// echo 7 / 0, '<br>'; # erro
+echo 4 ** 2, '<br>';
+
+echo '<p>Precedência</p>';
+//() => ** => / => * => + => -
+echo 2 + 3 * 4, '<br>';
+echo (2 + 3) * 4, '<br>';
+echo 2 + 3 * 4 ** 2, '<br>';
